@@ -1,0 +1,200 @@
+// Variables
+$white:#f8f6f3;
+$beige:#ece3d6;
+$red:#A33F2D;
+$darkRed:#2B0905;
+$gold:#efc657;
+
+$lPurple:#4F3F72;
+$purple:#382848;
+$dPurple:#1F162B;
+
+$blue:#282868;
+$dBlue:#090935;
+
+$lGold:#D3BE67;
+$gold:#D6BB3D;
+$dGold:#AD9227;
+
+.red {background:red;}
+.green {background:green;}
+.gray {background:gray;}
+.darkGray {background:darkgray;}
+.lightGray {background:lightgray;}
+.block {display:block;}
+.white {background:$beige;}
+
+.purple {background:$purple}
+
+// Global
+hr {}
+img.logo {
+	max-width:emCalc(35px);
+	max-height:emCalc(35px);
+	padding-bottom:emCalc(1px);
+}
+.card {min-height:100vh;}
+.bgWrapper {
+	background:$purple;
+}
+
+//Typography
+// font-family: 'Lobster Two', cursive;
+// font-family: 'Open Sans', sans-serif;
+h1 {
+	font-size:emCalc(72px);
+	font-weight: 700;
+}
+h1.logo {text-transform:uppercase;}
+h1.subheader {
+	font-weight:300;
+	font-size:emCalc(32px);
+}
+
+//Buttons
+.redButton {
+	@include button-base;
+	@include button-size;
+	@include button-style($bg:$red);
+	@include single-transition;
+}
+.redButton:active {
+	position: relative;
+	top: 1px;
+	left:1px;
+}
+.beigeButton {
+	@include button-base;
+	@include button-size;
+	@include button-style($bg:$beige);
+	@include single-transition;
+	color:$darkRed;
+}
+.goldButton {
+	@include button-base;
+	@include button-size;
+	@include button-style($bg:$gold);
+	@include single-transition;
+	color:$red;
+}
+.beigeButton:active {
+	position: relative;
+	top: 1px;
+	left:1px;
+}
+#navButton {
+	border:none;
+	min-width:10em;
+	min-height:emCalc(45px);
+}
+.button#mHeroButton {
+	min-height:emCalc(100px);
+	border:none;
+}
+.button#mSubHeroButton {
+	min-height:emCalc(50px);
+	border:none;
+}
+// Application Store Buttons
+.playStore {
+	background: $gold
+		url(../img/playStoreButtonLight.png)
+		no-repeat;
+	background-position: center center;
+	background-size:contain;
+	min-height:emCalc(45px);
+}
+.goldButton.playStore {min-width:10em;}
+.appStore {
+	background: $gold
+		url(../img/appStoreButtonLight.png)
+		no-repeat;
+	background-position: center center;
+	background-size:contain;
+	min-height:emCalc(45px);
+}
+.goldButton.appStore {min-width:10em;}
+.appStoreLight {
+	background: 
+		$white
+		url(../img/appStoreButtonLight.png)
+		no-repeat;
+	background-position: center center;
+	background-size:contain;
+	min-height:emCalc(45px);
+}
+.playStoreLight {
+	background: 
+		$white
+		url(../img/playStoreButtonLight.png)
+		no-repeat;
+	background-position: center center;
+	background-size:contain;
+	min-height:emCalc(45px);
+}
+// Social Media Buttons!
+.tumblrBtn {
+	background: $red
+		url(../img/tumblr.png)
+		no-repeat;
+	background-position: center center;
+	background-size:contain;
+	min-height:emCalc(45px);
+	min-width:emCalc(150px);
+}
+.fbBtn {
+	background: $red
+		url(../img/fb.png)
+		no-repeat;
+	background-position: center center;
+	background-size:contain;
+	min-height:emCalc(45px);
+	min-width:emCalc(150px);
+}
+.twitterBtn {
+	background: $red
+		url(../img/twitter.png)
+		no-repeat;
+	background-position: center center;
+	background-size:contain;
+	min-height:emCalc(45px);
+	min-width:emCalc(150px);
+}
+
+//Footer
+.footer {
+	min-width:100vw;
+	background:$red;
+	color:$beige;
+	padding:emCalc(30px) 0;
+}
+.footer ul {
+	list-style:none;
+}
+.footer ul a {color:$beige;}
+.footer ul a:hover {color:$gold;}
+.footer ul a:visited {color:$beige;}
+a.disabled {color:$darkRed;}
+
+
+//Foundation Overrides
+.top-bar {
+	margin-bottom:0;
+}
+.top-bar a {
+	transition: all 0.12s ease-out 0s;
+    transition-property: all;
+    transition-duration: 0.12s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+.contain-to-grid.nav {
+	border-bottom:4px solid $dGold;
+}
+[data-magellan-expedition] {
+	background:$dPurple;
+	padding:emCalc(5px);
+}
+
+
+

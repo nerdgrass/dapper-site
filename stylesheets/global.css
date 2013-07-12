@@ -1,0 +1,9 @@
+/* line 4, ../sass/global.scss */
+.card {
+  min-height: 100vh;
+}
+
+/* line 10, ../sass/global.scss */
+.top-bar {
+  margin-bottom: 0;
+}
