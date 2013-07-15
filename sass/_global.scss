@@ -1,20 +1,3 @@
-// Variables
-$white:#f8f6f3;
-$beige:#ece3d6;
-$red:#A33F2D;
-$darkRed:#2B0905;
-
-$lPurple:#4F3F72;
-$purple:#382848;
-$dPurple:#1F162B;
-
-$blue:#282868;
-$dBlue:#090935;
-
-$lGold:#D3BE67;
-$gold:#D6BB3D;
-$dGold:#AD9227;
-
 .red {background:red;}
 .green {background:green;}
 .gray {background:gray;}
@@ -39,8 +22,10 @@ img.logo {
 
 //Typography
 h1 {
+	font-family:"Cassannet", Helvetica, Arial, sans-serif;
 	font-size:emCalc(72px);
 	font-weight: 700;
+	text-transform:uppercase;
 }
 h1.logo {text-transform:uppercase;}
 h1.subheader {

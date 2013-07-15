@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, height=device-height" />
-  <title>Dapper</title>
+  <title>Dapper | </title>
 
   
   <link rel="stylesheet" href="stylesheets/app.css" />
@@ -14,14 +14,6 @@
 
   <!-- Super Slow Webfonts Crap -->
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
-
-  <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-  
-  <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900,300,200' rel='stylesheet' type='text/css'>
-
-  <link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic' rel='stylesheet' type='text/css'>
-
-  <link href='http://fonts.googleapis.com/css?family=Amaranth:700italic' rel='stylesheet' type='text/css'>
 
   <script src="javascripts/vendor/custom.modernizr.js"></script>
 
@@ -33,7 +25,7 @@
 		    <!-- Title Area -->
 		    <li class="name">
 		      <h1 class="logo">
-		      	<a href="#home">
+		      	<a  class="scrollTo" href="#home">
 		      		<img class="logo" src="img/dapperLogo.png">
 		      		DAPPER
 		      	</a>
@@ -46,20 +38,18 @@
 		    <!-- Left Nav Section -->
 		    <ul class="left">
 		      <li data-magellan-arrival="about"><a href="#about">About</a></li>
-		      <li data-magellan-arrival="how"><a href="#how">Designers</a></li>
-		      <li data-magellan-arrival="how"><a href="#how">Employers</a></li>
+		      <li data-magellan-arrival="designers"><a href="#designers">Designers</a></li>
+		      <li data-magellan-arrival="employers"><a href="#employers">Employers</a></li>
 		      <li data-magellan-arrival="contact"><a href="#contact">Contact Us</a></li>
 		    </ul>
 		  </section>
 		</nav>
 	</div><!-- End Nav -->
 
-
-	<!-- Hero Card -->
-	<a name="home"></a>
-	<div class="hero">
+	<a name="home"></a><!-- Hero Card -->
+	<div class="hero" data-magellan-destination="home">
 		<div class="row">
-			<div class="small-8 columns small-centered large-centered heroText">
+			<div class="small-10 columns small-centered large-centered heroText">
 				<img src="img/dapperSplash.png">
 				<div class="row">
 					<div class="small-6 columns">
@@ -73,10 +63,10 @@
 		</div>
 	</div>
 
-	<a name="about"></a>
-	<div class="row"><!-- About Card -->
+	<a name="about"></a><!-- About Card -->
+	<div class="row">
 		<div class="large-12 columns card">
-			<h1 data-magellan-destination="about">About Us</h1>
+			<h1 data-magellan-destination="about" class="scrollTo">About Us</h1>
 			<div class="row">
 				<div class="large-6 columns">
 					<h2>We Hate Hiring</h2>
@@ -91,17 +81,17 @@
 				<div class="large-6 columns">
 					<div class="row">
 						<div class="small-4 columns">
-							<img class="aboutPortrait" src="img/greg.jpg" alt="Greg Santos, CEO of SpeedSlice">
+							<img class="aboutPortrait" src="img/steve.jpg" alt="Greg Santos, CEO of SpeedSlice">
 							<h3 class="aboutPortraitText">Steve McGerry</h3>
 							<h3 class="subheader aboutPortraitText">CEO</h3>
 						</div>
 						<div class="small-4 columns">
-							<img class="aboutPortrait" src="img/greg.jpg" alt="Greg Santos, CEO of SpeedSlice">
+							<img class="aboutPortrait" src="img/seb.jpg" alt="Greg Santos, CEO of SpeedSlice">
 							<h3 class="aboutPortraitText">Sebastian L. Fung</h3>
 							<h3 class="subheader aboutPortraitText">COO</h3>
 						</div>
 						<div class="small-4 columns">
-							<img class="aboutPortrait" src="img/greg.jpg" alt="Greg Santos, CEO of SpeedSlice">
+							<img class="aboutPortrait" src="img/mikey.jpg" alt="Greg Santos, CEO of SpeedSlice">
 							<h3 class="aboutPortraitText">Michael Bernstein</h3>
 							<h3 class="subheader aboutPortraitText">CTO</h3>
 						</div>
@@ -118,11 +108,11 @@
 	</div>
 
 
-	<a name="designers"></a>
+	<a name="designers"></a><!-- Designers Card -->
 	<div class="bgWrapper">
 		<div class="row">
 			<div class="large-12 columns card">
-				<h1 data-magellan-destination="restaurants">Designers</h1>
+				<h1 data-magellan-destination="designers">Designers</h1>
 				<div class="row">
 					<div class="large-4 columns">
 						<ul class="pricing-table">
@@ -162,10 +152,10 @@
 		</div>
 	</div>
 
-	<a name="employers"></a>
+	<a name="employers"></a><!-- Employers Card -->
 	<div class="row">
 		<div class="large-12 columns card">
-			<h1 data-magellan-destination="restaurants">Employers</h1>
+			<h1 data-magellan-destination="employers">Employers</h1>
 			<div class="row">
 				<div class="large-4 columns">
 						<ul class="pricing-table">
@@ -206,7 +196,6 @@
 	
 	<a name="contact"></a>
 	<div class="bgWrapper">
-		<hr>
 		<div class="row"><!-- Contact Card -->
 			<div class="large-12 columns">
 				<h1 data-magellan-destination="contact">Contact Us</h1>
@@ -288,45 +277,38 @@
 	</div>
 
 
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
-  '.js><\/script>')
-  </script>
+	<script>
+		document.write('<script src=' +
+		('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
+		'.js><\/script>')
+	</script>
   
-  <script src="javascripts/foundation/foundation.js"></script>
-	
+	<script src="javascripts/foundation/foundation.js"></script>
 	<script src="javascripts/foundation/foundation.alerts.js"></script>
-	
 	<script src="javascripts/foundation/foundation.clearing.js"></script>
-	
 	<script src="javascripts/foundation/foundation.cookie.js"></script>
-	
 	<script src="javascripts/foundation/foundation.dropdown.js"></script>
-	
 	<script src="javascripts/foundation/foundation.forms.js"></script>
-	
-	<script src="javascripts/foundation/foundation.interchange.js"></script>
-	
+	<script src="javascripts/foundation/foundation.interchange.js"></script>	
 	<script src="javascripts/foundation/foundation.joyride.js"></script>
-	
-	<script src="javascripts/foundation/foundation.magellan.js"></script>
-	
+	<script src="javascripts/foundation/foundation.magellan.js"></script>	
 	<script src="javascripts/foundation/foundation.orbit.js"></script>
-	
 	<script src="javascripts/foundation/foundation.placeholder.js"></script>
-	
 	<script src="javascripts/foundation/foundation.reveal.js"></script>
-	
 	<script src="javascripts/foundation/foundation.section.js"></script>
-	
 	<script src="javascripts/foundation/foundation.tooltips.js"></script>
-	
 	<script src="javascripts/foundation/foundation.topbar.js"></script>
-	
+
+	<script type="text/javascript">
+		$('.scrollTo').on('click', function(e) {
+		    e.preventDefault();
+		    Foundation.lib_methods.scrollTo($(window), $($(e.currentTarget).attr('href')).offset().top, 200);
+		});
+	</script>
   
-  <script>
-    $(document).foundation();
-  </script>
+	<script>
+		$(document).foundation();
+	</script>
+
 </body>
 </html>

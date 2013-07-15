@@ -1,13 +1,54 @@
+//Color Variables
+$white:#f8f6f3;
+$beige:#ece3d6;
+$red:#A33F2D;
+$darkRed:#2B0905;
+
+$lPurple:#4F3F72;
+$purple:#382848;
+$dPurple:#1F162B;
+
+$blue:#282868;
+$dBlue:#090935;
+
+$lGold:#D3BE67;
+$gold:#D6BB3D;
+$dGold:#AD9227;
+
 //Customized Typography
+
 $h1-font-size: emCalc(72px);
 $h3-font-size: emCalc(27px);
 $h4-font-size: emCalc(23px);
 $h5-font-size: emCalc(18px);
 $h6-font-size: 1em;
 
-$topbar-bg: #1f162b;
+// Cassanet @font-face
+@font-face {
+    font-family: 'Cassannet';
+    src: url('../fonts/cassannet-webfont.eot');
+    src: url('../fonts/cassannet-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cassannet-webfont.woff') format('woff'),
+         url('../fonts/cassannet-webfont.ttf') format('truetype'),
+         url('../fonts/cassannet-webfont.svg#cassannet_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} @font-face {
+    font-family: 'Cassannet-bold';
+    src: url('../fonts/cassannet_bold-webfont.eot');
+    src: url('../fonts/cassannet_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cassannet_bold-webfont.woff') format('woff'),
+         url('../fonts/cassannet_bold-webfont.ttf') format('truetype'),
+         url('../fonts/cassannet_bold-webfont.svg#cassannet_boldbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+//Top-bar overrides
+$topbar-bg: $dPurple;
 $topbar-link-color: white;
-$topbar-link-color-active: #d6bb3d;
+$topbar-link-color-active: $gold;
 
 // $header-font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
 
