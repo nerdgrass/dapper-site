@@ -1,7 +1,7 @@
 3.2.9 (Media Mark)
-b05aaec1a057ccb62dd665e5b095dbbfa3b98ac6
+8aa7a2592ad69e0610cfc02145d442d358ceddda
 o:Sass::Tree::RootNode
-:@template"2}//
+:@template"C}//
 // Foundation Variables
 //
 
@@ -45,7 +45,7 @@ $body-font-weight: 300;
 
 // Colors
 
-$primary-color: #2ba6cb; //Foundation's Blue: #2ba6cb
+$primary-color: #4F3F72; //Purple, default is Foundation Blue: #2ba6cb
 $secondary-color: #e9e9e9; //Foundation's Gray: #e9e9e9
 // $alert-color: #c60f13;
 // $success-color: #5da423;
@@ -1315,9 +1315,9 @@ comma;@;	[ ;i&o;;0;"body-font-weight;o;;[ ;[ ;i,;@;"300;i';
 ;;;[";/* Text direction settings
  * $text-direction: ltr; */;@;	[ ;i-o;
 
-;;;["/* Colors */;@;	[ ;i0o;;0;"primary-color;o;%	;0;&{	;'iË;(i0;)i;*i¦;@;i2;@;	[ ;i2o;
+;;;["/* Colors */;@;	[ ;i0o;;0;"primary-color;o;%	;0;&{	;'iw;(iT;)i;*iD;@;i2;@;	[ ;i2o;
 
-;;;["$/*Foundation's Blue: #2ba6cb */;@;	[ ;i2o;;0;"secondary-color;o;%	;0;&{	;'ié;(ié;)i;*ié;@;i3;@;	[ ;i3o;
+;;;["5/*Purple, default is Foundation Blue: #2ba6cb */;@;	[ ;i2o;;0;"secondary-color;o;%	;0;&{	;'ié;(ié;)i;*ié;@;i3;@;	[ ;i3o;
 
 ;;;["Z/*Foundation's Gray: #e9e9e9
  * $alert-color: #c60f13;
