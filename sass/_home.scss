@@ -6,19 +6,6 @@
     border-bottom: 4px solid $dPurple;
 }
 
-.hero h1 {
-    color: $red;
-    font-weight: 900;
-    font-style: italic;
-    text-shadow: -2px -2px 0 $darkRed, 2px -2px 0 $darkRed, -2px 2px 0 $darkRed, 2px 2px 0 $darkRed;
-}
-
-// Subheader Banner
-.heroText {
-    position: relative;
-    z-index: 1;
-}
-
 div.heroText {
     margin-top: 1em;
 }
@@ -33,134 +20,10 @@ div.heroText {
     border-top: 4px solid $gold;
     display: block;
 }
-
-.ribbon {
-    position: relative;
-    background: $gold;
-    color: #fff;
-    text-align: center;
-    padding: 1em 2em;
-    /* Adjust to suit */
-    margin: 0 0 3em;
-    /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
-    -webkit-border-top-left-radius: 2px;
-    -webkit-border-top-right-radius: 2px;
-    -moz-border-radius-topleft: 2px;
-    -moz-border-radius-topright: 2px;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-}
-
-.ribbon:before, .ribbon:after {
-    content: "";
-    position: absolute;
-    display: block;
-    bottom: -1em;
-    border: 1.5em solid darken($red, 10%);
-    z-index: -1;
-}
-
-.ribbon:before {
-    left: -2em;
-    border-right-width: 1.5em;
-    border-left-color: transparent;
-}
-
-.ribbon:after {
-    right: -2em;
-    border-left-width: 1.5em;
-    border-right-color: transparent;
-}
-
-.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
-    content: "";
-    position: absolute;
-    display: block;
-    border-style: solid;
-    border-color: $darkRed transparent transparent transparent;
-    bottom: -1em;
-}
-
-.ribbon .ribbon-content:before {
-    left: 0;
-    border-width: 1em 0 0 1em;
-}
-
-.ribbon .ribbon-content:after {
-    right: 0;
-    border-width: 1em 1em 0 0;
-}
-
 //Desktop Home Card
 .homeCard {
     min-height: 70vh;
 }
-
 .heroText button {
     margin-top: 1em;
-}
-
-// Mobile Home Card
-.step1 > div, .step2 > div, .step3 > div, .getSpeedSlice > div {
-    min-height: 15vh;
-}
-
-.step1>div {
-    margin-top: 15px;
-}
-
-h1.mHome {
-    text-align: center;
-    display: block;
-    background: $beige;
-    border: 4px solid $red;
-    border-radius: 50%;
-    margin: emCalc(2px) auto;
-    width: emCalc(30px);
-    height: emCalc(30px);
-    padding: emCalc(4px);
-}
-
-label.mHome {
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: emCalc(3px);
-    padding: 0;
-}
-
-h2.mHome, p.mHome {
-    margin: 0 emCalc(10px) 0 emCalc(10px);
-}
-
-h2.mHome {
-    margin-top: emCalc(10px);
-}
-
-div.getSpeedSlice {
-    margin-top: emCalc(10px);
-}
-
-p.mHeroButton {
-    text-align: center;
-    margin: 0;
-    font-style: italic;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-button.mHeroButton {
-    margin-bottom: 0;
-}
-
-// iPhone
-.iphone {
-    max-height: 45vh;
-    overflow: visible;
-}
-
-.iphone img {
-    margin: emCalc(25px) auto;
-    display: block;
-    height: 85%;
-    width: 85%;
 }

@@ -49,7 +49,7 @@ h1.subheader {
 }
 // Social Media Buttons!
 .tumblrBtn {
-	background: $gold
+	background: $lPurple
 		url(../img/tumblr.png)
 		no-repeat;
 	background-position: center center;
@@ -58,7 +58,7 @@ h1.subheader {
 	min-width:emCalc(150px);
 }
 .fbBtn {
-	background: $gold
+	background: $lPurple
 		url(../img/fb.png)
 		no-repeat;
 	background-position: center center;
@@ -67,7 +67,7 @@ h1.subheader {
 	min-width:emCalc(150px);
 }
 .twitterBtn {
-	background: $gold
+	background: $lPurple
 		url(../img/twitter.png)
 		no-repeat;
 	background-position: center center;
@@ -107,7 +107,7 @@ a.disabled {color:$darkRed;}
 	border-bottom:4px solid $dGold;
 }
 [data-magellan-expedition] {
-	background:$dPurple;
+	background:$purple;
 	padding:emCalc(5px);
 }
 

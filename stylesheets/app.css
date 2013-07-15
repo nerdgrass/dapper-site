@@ -4321,7 +4321,7 @@ form.custom .custom.disabled {
 /* line 67, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #1f162b;
+  background: #382848;
 }
 /* line 71, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
 .contain-to-grid .top-bar {
@@ -4343,7 +4343,7 @@ form.custom .custom.disabled {
   height: 45px;
   line-height: 45px;
   position: relative;
-  background: #1f162b;
+  background: #382848;
   margin-bottom: 1.875em;
 }
 /* line 92, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
@@ -4446,7 +4446,7 @@ form.custom .custom.disabled {
 }
 /* line 189, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .title-area {
-  background: #1f162b;
+  background: #382848;
 }
 /* line 192, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
@@ -4479,8 +4479,8 @@ form.custom .custom.disabled {
 /* line 227, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-bottom: solid 1px #37274d;
-  border-top: solid 1px #070509;
+  border-bottom: solid 1px #513a69;
+  border-top: solid 1px #1e1627;
   clear: both;
   height: 1px;
   width: 100%;
@@ -4531,12 +4531,12 @@ form.custom .custom.disabled {
 }
 /* line 275, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.hover > a {
-  background: #181121;
+  background: #30233e;
   color: white;
 }
 /* line 281, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
-  background: #181121;
+  background: #30233e;
   color: #d6bb3d;
 }
 /* line 288, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
@@ -4622,7 +4622,7 @@ form.custom .custom.disabled {
 @media only screen and (min-width: 58.75em) {
   /* line 359, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
   .top-bar {
-    background: #1f162b;
+    background: #382848;
     *zoom: 1;
     overflow: visible;
   }
@@ -4659,7 +4659,7 @@ form.custom .custom.disabled {
   }
   /* line 379, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
   .top-bar.expanded {
-    background: #1f162b;
+    background: #382848;
   }
 
   /* line 382, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
@@ -4693,7 +4693,7 @@ form.custom .custom.disabled {
   .top-bar-section li a:not(.button) {
     padding: 0 15px;
     line-height: 45px;
-    background: #1f162b;
+    background: #382848;
   }
   /* line 407, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
   .top-bar-section li a:not(.button).hover {
@@ -4747,12 +4747,12 @@ form.custom .custom.disabled {
     line-height: 1;
     white-space: nowrap;
     padding: 7px 15px;
-    background: #2b1f3c;
+    background: #453158;
   }
   /* line 460, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li label {
     white-space: nowrap;
-    background: #2b1f3c;
+    background: #453158;
   }
   /* line 466, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li .dropdown {
@@ -4763,15 +4763,15 @@ form.custom .custom.disabled {
   .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     border-bottom: none;
     border-top: none;
-    border-right: solid 1px #37274d;
-    border-left: solid 1px #070509;
+    border-right: solid 1px #513a69;
+    border-left: solid 1px #1e1627;
     clear: none;
     height: 45px;
     width: 0px;
   }
   /* line 484, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
-    background: #1f162b;
+    background: #382848;
     padding: 0 15px;
     height: 45px;
   }
@@ -4787,12 +4787,12 @@ form.custom .custom.disabled {
 
   /* line 506, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
-    background: #181121;
+    background: #30233e;
     color: white;
   }
   /* line 512, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
-    background: #181121;
+    background: #30233e;
     color: #d6bb3d;
   }
   /* line 520, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
@@ -6799,7 +6799,7 @@ h1.subheader {
 
 /* line 51, ../sass/_global.scss */
 .tumblrBtn {
-  background: #d6bb3d url(../img/tumblr.png) no-repeat;
+  background: #4f3f72 url(../img/tumblr.png) no-repeat;
   background-position: center center;
   background-size: contain;
   min-height: 2.8125em;
@@ -6808,7 +6808,7 @@ h1.subheader {
 
 /* line 60, ../sass/_global.scss */
 .fbBtn {
-  background: #d6bb3d url(../img/fb.png) no-repeat;
+  background: #4f3f72 url(../img/fb.png) no-repeat;
   background-position: center center;
   background-size: contain;
   min-height: 2.8125em;
@@ -6817,7 +6817,7 @@ h1.subheader {
 
 /* line 69, ../sass/_global.scss */
 .twitterBtn {
-  background: #d6bb3d url(../img/twitter.png) no-repeat;
+  background: #4f3f72 url(../img/twitter.png) no-repeat;
   background-position: center center;
   background-size: contain;
   min-height: 2.8125em;
@@ -6878,7 +6878,7 @@ a.disabled {
 
 /* line 109, ../sass/_global.scss */
 [data-magellan-expedition] {
-  background: #1f162b;
+  background: #382848;
   padding: 0.3125em;
 }
 
@@ -6892,25 +6892,11 @@ a.disabled {
 }
 
 /* line 9, ../sass/_home.scss */
-.hero h1 {
-  color: #a33f2d;
-  font-weight: 900;
-  font-style: italic;
-  text-shadow: -2px -2px 0 #2b0905, 2px -2px 0 #2b0905, -2px 2px 0 #2b0905, 2px 2px 0 #2b0905;
-}
-
-/* line 17, ../sass/_home.scss */
-.heroText {
-  position: relative;
-  z-index: 1;
-}
-
-/* line 22, ../sass/_home.scss */
 div.heroText {
   margin-top: 1em;
 }
 
-/* line 26, ../sass/_home.scss */
+/* line 13, ../sass/_home.scss */
 .heroText h1.subheader {
   font-size: 1.375em;
   background: #a33f2d;
@@ -6922,152 +6908,14 @@ div.heroText {
   display: block;
 }
 
-/* line 37, ../sass/_home.scss */
-.ribbon {
-  position: relative;
-  background: #d6bb3d;
-  color: #fff;
-  text-align: center;
-  padding: 1em 2em;
-  /* Adjust to suit */
-  margin: 0 0 3em;
-  /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
-  -webkit-border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
-}
-
-/* line 54, ../sass/_home.scss */
-.ribbon:before, .ribbon:after {
-  content: "";
-  position: absolute;
-  display: block;
-  bottom: -1em;
-  border: 1.5em solid #7b3022;
-  z-index: -1;
-}
-
-/* line 63, ../sass/_home.scss */
-.ribbon:before {
-  left: -2em;
-  border-right-width: 1.5em;
-  border-left-color: transparent;
-}
-
-/* line 69, ../sass/_home.scss */
-.ribbon:after {
-  right: -2em;
-  border-left-width: 1.5em;
-  border-right-color: transparent;
-}
-
-/* line 75, ../sass/_home.scss */
-.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
-  content: "";
-  position: absolute;
-  display: block;
-  border-style: solid;
-  border-color: #2b0905 transparent transparent transparent;
-  bottom: -1em;
-}
-
-/* line 84, ../sass/_home.scss */
-.ribbon .ribbon-content:before {
-  left: 0;
-  border-width: 1em 0 0 1em;
-}
-
-/* line 89, ../sass/_home.scss */
-.ribbon .ribbon-content:after {
-  right: 0;
-  border-width: 1em 1em 0 0;
-}
-
-/* line 95, ../sass/_home.scss */
+/* line 24, ../sass/_home.scss */
 .homeCard {
   min-height: 70vh;
 }
 
-/* line 99, ../sass/_home.scss */
+/* line 27, ../sass/_home.scss */
 .heroText button {
   margin-top: 1em;
-}
-
-/* line 104, ../sass/_home.scss */
-.step1 > div, .step2 > div, .step3 > div, .getSpeedSlice > div {
-  min-height: 15vh;
-}
-
-/* line 108, ../sass/_home.scss */
-.step1 > div {
-  margin-top: 15px;
-}
-
-/* line 112, ../sass/_home.scss */
-h1.mHome {
-  text-align: center;
-  display: block;
-  background: #ece3d6;
-  border: 4px solid #a33f2d;
-  border-radius: 50%;
-  margin: 0.125em auto;
-  width: 1.875em;
-  height: 1.875em;
-  padding: 0.25em;
-}
-
-/* line 124, ../sass/_home.scss */
-label.mHome {
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 0.1875em;
-  padding: 0;
-}
-
-/* line 131, ../sass/_home.scss */
-h2.mHome, p.mHome {
-  margin: 0 0.625em 0 0.625em;
-}
-
-/* line 135, ../sass/_home.scss */
-h2.mHome {
-  margin-top: 0.625em;
-}
-
-/* line 139, ../sass/_home.scss */
-div.getSpeedSlice {
-  margin-top: 0.625em;
-}
-
-/* line 143, ../sass/_home.scss */
-p.mHeroButton {
-  text-align: center;
-  margin: 0;
-  font-style: italic;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-/* line 151, ../sass/_home.scss */
-button.mHeroButton {
-  margin-bottom: 0;
-}
-
-/* line 156, ../sass/_home.scss */
-.iphone {
-  max-height: 45vh;
-  overflow: visible;
-}
-
-/* line 161, ../sass/_home.scss */
-.iphone img {
-  margin: 1.5625em auto;
-  display: block;
-  height: 85%;
-  width: 85%;
 }
 
 /* line 2, ../sass/_about.scss */
